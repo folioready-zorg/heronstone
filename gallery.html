@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gallery — Heronstone</title>
+  <meta name="description" content="Browse our portfolio of bespoke ponds, natural swimming pools, and water features across Melbourne.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Heron<span>stone</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html" class="active">Gallery</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="nav-overlay"></div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero hero--page">
+    <div class="hero__bg"></div>
+    <div class="hero__bg--pattern"></div>
+    <div class="hero__content">
+      <h1>Our Work</h1>
+      <p>A selection of projects from across Melbourne and the surrounding regions.</p>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="section">
+    <div class="container">
+
+      <!-- Filters -->
+      <div class="gallery-filters fade-in">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="ponds">Ponds</button>
+        <button class="filter-btn" data-filter="pools">Natural Pools</button>
+        <button class="filter-btn" data-filter="features">Water Features</button>
+        <button class="filter-btn" data-filter="koi">Koi Ponds</button>
+      </div>
+
+      <!-- Gallery Grid -->
+      <div class="gallery-grid">
+
+        <div class="gallery-item fade-in" data-category="ponds" data-title="Toorak Garden Pond" data-description="A naturalistic garden pond with native plantings and sandstone edging.">
+          <div class="gallery-item__image">
+            <span>Project Photo</span>
+          </div>
+          <div class="gallery-item__overlay">
+            <h3>Toorak Garden Pond</h3>
+            <p>Ponds</p>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in" data-category="pools" data-title="Brighton Natural Pool" data-description="A chemical-free natural swimming pool with integrated regeneration zone and timber decking.">
+          <div class="gallery-item__image">
+            <span>Project Photo</span>
+          </div>
+          <div class="gallery-item__overlay">
+            <h3>Brighton Natural Pool</h3>
+            <p>Natural Pools</p>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in" data-category="features" data-title="Hawthorn Blade Waterfall" data-description="A contemporary stainless steel blade waterfall set into a bluestone wall.">
+          <div class="gallery-item__image">
+            <span>Project Photo</span>
+          </div>
+          <div class="gallery-item__overlay">
+            <h3>Hawthorn Blade Waterfall</h3>
+            <p>Water Features</p>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in" data-category="koi" data-title="Canterbury Koi Pond" data-description="A purpose-built koi habitat with multi-stage filtration and viewing window.">
+          <div class="gallery-item__image">
+            <span>Project Photo</span>
+          </div>
+          <div class="gallery-item__overlay">
+            <h3>Canterbury Koi Pond</h3>
+            <p>Koi Ponds</p>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in" data-category="ponds" data-title="Portsea Estate Pond" data-description="A large-scale estate pond with island planting and natural stone beach entry.">
+          <div class="gallery-item__image">
+            <span>Project Photo</span>
+          </div>
+          <div class="gallery-item__overlay">
+            <h3>Portsea Estate Pond</h3>
+            <p>Ponds</p>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in" data-category="features" data-title="South Yarra Courtyard Feature" data-description="A compact courtyard water feature with recirculating cascade and mood lighting.">
+          <div class="gallery-item__image">
+            <span>Project Photo</span>
+          </div>
+          <div class="gallery-item__overlay">
+            <h3>South Yarra Courtyard Feature</h3>
+            <p>Water Features</p>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in" data-category="pools" data-title="Mornington Peninsula Pool" data-description="A freeform natural swimming pool surrounded by native grasses and local basalt.">
+          <div class="gallery-item__image">
+            <span>Project Photo</span>
+          </div>
+          <div class="gallery-item__overlay">
+            <h3>Mornington Peninsula Pool</h3>
+            <p>Natural Pools</p>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in" data-category="koi" data-title="Kew Koi Garden" data-description="A Japanese-inspired koi pond with timber bridge, lanterns, and maple plantings.">
+          <div class="gallery-item__image">
+            <span>Project Photo</span>
+          </div>
+          <div class="gallery-item__overlay">
+            <h3>Kew Koi Garden</h3>
+            <p>Koi Ponds</p>
+          </div>
+        </div>
+
+        <div class="gallery-item fade-in" data-category="features" data-title="Malvern Rock Cascade" data-description="A multi-tiered rock cascade with native plantings and natural boulder placement.">
+          <div class="gallery-item__image">
+            <span>Project Photo</span>
+          </div>
+          <div class="gallery-item__overlay">
+            <h3>Malvern Rock Cascade</h3>
+            <p>Water Features</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Lightbox -->
+  <div class="lightbox" id="lightbox">
+    <button class="lightbox__close" aria-label="Close lightbox">&times;</button>
+    <button class="lightbox__nav lightbox__nav--prev" aria-label="Previous image">&#8249;</button>
+    <button class="lightbox__nav lightbox__nav--next" aria-label="Next image">&#8250;</button>
+    <div class="lightbox__content">
+      <div class="lightbox__image" id="lightbox-image">
+        <span>Project Photo</span>
+      </div>
+      <div class="lightbox__caption">
+        <h3 id="lightbox-title"></h3>
+        <p id="lightbox-description"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- CTA -->
+  <section class="section section--green">
+    <div class="container">
+      <div class="cta fade-in">
+        <h2>Like What You See?</h2>
+        <p>Every project starts with a conversation. Let us know what you're envisioning.</p>
+        <a href="contact.html" class="btn btn--outline">Get in Touch</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Heron<span>stone</span></a>
+          <p>Bespoke water features crafted for Melbourne's finest properties.</p>
+        </div>
+        <div>
+          <h4>Navigate</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Pond Design</a></li>
+            <li><a href="services.html">Natural Pools</a></li>
+            <li><a href="services.html">Water Features</a></li>
+            <li><a href="services.html">Maintenance</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>
+            Melbourne, Victoria<br>
+            <a href="tel:+61398765432">03 9876 5432</a><br>
+            <a href="mailto:hello@heronstone.com.au">hello@heronstone.com.au</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Heronstone. All rights reserved.</p>
+        <p>Crafted in Melbourne</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

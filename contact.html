@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact — Heronstone</title>
+  <meta name="description" content="Get in touch with Heronstone to discuss your water feature project in Melbourne.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Header -->
+  <header class="header">
+    <div class="container">
+      <a href="index.html" class="logo">Heron<span>stone</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="contact.html" class="active">Contact</a></li>
+        </ul>
+      </nav>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+    <div class="nav-overlay"></div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero hero--page">
+    <div class="hero__bg"></div>
+    <div class="hero__bg--pattern"></div>
+    <div class="hero__content">
+      <h1>Get in Touch</h1>
+      <p>Every project begins with a conversation. We'd love to hear about yours.</p>
+    </div>
+  </section>
+
+  <!-- Contact Form -->
+  <section class="section">
+    <div class="container">
+      <div class="grid grid--2">
+
+        <!-- Form -->
+        <div class="fade-in">
+          <h2 style="margin-bottom: var(--space-lg);">Send Us a Message</h2>
+          <form id="contact-form" novalidate>
+            <div class="form-grid">
+              <div class="form-grid form-grid--2col">
+                <div class="form-group">
+                  <label for="name">Name <span class="required">*</span></label>
+                  <input type="text" id="name" name="name" required placeholder="Your full name">
+                  <span class="error-message">Please enter your name.</span>
+                </div>
+                <div class="form-group">
+                  <label for="email">Email <span class="required">*</span></label>
+                  <input type="email" id="email" name="email" required placeholder="you@example.com">
+                  <span class="error-message">Please enter a valid email address.</span>
+                </div>
+              </div>
+              <div class="form-grid form-grid--2col">
+                <div class="form-group">
+                  <label for="phone">Phone</label>
+                  <input type="tel" id="phone" name="phone" placeholder="04XX XXX XXX">
+                </div>
+                <div class="form-group">
+                  <label for="service">Service of Interest</label>
+                  <select id="service" name="service">
+                    <option value="">Select a service...</option>
+                    <option value="pond">Pond Design & Construction</option>
+                    <option value="pool">Natural Swimming Pool</option>
+                    <option value="feature">Water Feature / Fountain</option>
+                    <option value="koi">Koi Pond</option>
+                    <option value="maintenance">Maintenance & Restoration</option>
+                    <option value="other">Other</option>
+                  </select>
+                </div>
+              </div>
+              <div class="form-group">
+                <label for="message">Message <span class="required">*</span></label>
+                <textarea id="message" name="message" required placeholder="Tell us about your project — property details, what you're envisioning, any questions..."></textarea>
+                <span class="error-message">Please enter a message.</span>
+              </div>
+              <div>
+                <button type="submit" class="btn btn--primary">Send Message</button>
+              </div>
+            </div>
+          </form>
+          <div class="form-success" id="form-success">
+            <h3>Message Sent</h3>
+            <p>Thank you for your enquiry. We'll be in touch within one business day.</p>
+          </div>
+        </div>
+
+        <!-- Contact Info -->
+        <div class="fade-in">
+          <div class="contact-info-grid" style="grid-template-columns: 1fr;">
+            <div class="contact-info-card">
+              <h3>Phone</h3>
+              <p><a href="tel:+61398765432">03 9876 5432</a></p>
+            </div>
+            <div class="contact-info-card">
+              <h3>Email</h3>
+              <p><a href="mailto:hello@heronstone.com.au">hello@heronstone.com.au</a></p>
+            </div>
+            <div class="contact-info-card">
+              <h3>Service Area</h3>
+              <p>Melbourne metropolitan area and the Mornington Peninsula. We also consider select projects in regional Victoria.</p>
+            </div>
+            <div class="contact-info-card">
+              <h3>Business Hours</h3>
+              <ul>
+                <li>Monday – Friday: 8:00am – 5:00pm</li>
+                <li>Saturday: By appointment</li>
+                <li>Sunday: Closed</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Map -->
+  <section class="section section--stone">
+    <div class="container">
+      <div class="section-header fade-in">
+        <h2>Where We Work</h2>
+        <p>Based in Melbourne, serving the greater metropolitan area</p>
+      </div>
+      <div class="map-placeholder fade-in">
+        <span>Google Maps Embed — Melbourne, Victoria</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-brand">
+          <a href="index.html" class="logo">Heron<span>stone</span></a>
+          <p>Bespoke water features crafted for Melbourne's finest properties.</p>
+        </div>
+        <div>
+          <h4>Navigate</h4>
+          <ul class="footer-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4>Services</h4>
+          <ul class="footer-links">
+            <li><a href="services.html">Pond Design</a></li>
+            <li><a href="services.html">Natural Pools</a></li>
+            <li><a href="services.html">Water Features</a></li>
+            <li><a href="services.html">Maintenance</a></li>
+          </ul>
+        </div>
+        <div class="footer-contact">
+          <h4>Contact</h4>
+          <p>
+            Melbourne, Victoria<br>
+            <a href="tel:+61398765432">03 9876 5432</a><br>
+            <a href="mailto:hello@heronstone.com.au">hello@heronstone.com.au</a>
+          </p>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2026 Heronstone. All rights reserved.</p>
+        <p>Crafted in Melbourne</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
